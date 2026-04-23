@@ -8,7 +8,7 @@ Sphinx, Breathe, and Doxygen.
 The documentation pipeline has three stages:
 
 ```
-C++ headers ──→ Doxygen ──→ XML ──→ Breathe ──→ Sphinx ──→ HTML
+C++ headers → Doxygen → XML → Breathe → Sphinx → HTML
                   ↑                    ↑
               Doxyfile          Markdown files with
            (which headers)    Breathe directives (MyST)
